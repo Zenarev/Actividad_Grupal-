@@ -1,7 +1,7 @@
 # Titulo del proyecto
 
-*Descripción General*
+**Descripción General**
 
-*Objetivos*
+**Objetivos**
 
-*Licencia*
+**Licencia**
