@@ -4,6 +4,7 @@
 
 **Objetivos**
 
-**Licencia**
+### Licencia
 
-Se utiliza MIT license
+Se utiliza MIT license.
+
