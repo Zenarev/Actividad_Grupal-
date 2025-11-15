@@ -1,2 +1,7 @@
-# Prueba_1
-Es una prueba
+# Titulo del proyecto
+
+*Descripción General*
+
+*Objetivos*
+
+*Licencia*
