@@ -9,7 +9,7 @@ El objetivo principal es generar estadística descriptiva y visualizaciones
 
 ---
 
-## 📌 Objetivos del Proyecto
+## Objetivos del Proyecto
 
 - Cargar y procesar datos de expresión génica desde un archivo Excel.
 - Calcular estadística descriptiva de la columna **Expresion**.
@@ -18,7 +18,7 @@ El objetivo principal es generar estadística descriptiva y visualizaciones
 
 ---
 
-## 📂 Estructura del Repositorio
+## Estructura del Repositorio
 
 Proyecto_Expresion_Genetica/
 │
@@ -31,7 +31,7 @@ Proyecto_Expresion_Genetica/
 │
 ├── script.py # Código principal del análisis
 └── README.md # Documentación del proyecto
-## 🧪 Descripción del Dataset
+## Descripción del Dataset
 
 El archivo **expresion_100_muestras.xlsx** contiene:
 
@@ -44,9 +44,9 @@ Los datos incluyen rangos realistas y algunos outliers moderados.
 
 ---
 
-## 🛠️ Requisitos y Dependencias
+## Requisitos y Dependencias
 
-Para ejecutar el script necesitas:
+Para ejecutar el script se necesita:
 
 - Python 3.10+  
 - Pandas  
