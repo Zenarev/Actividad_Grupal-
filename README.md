@@ -1,4 +1,7 @@
 # Proyecto_Expresion_Genetica
+#Programación Científica
+#UNIR -> Grupo 18 - MUBIO
+#He agregado estas líneas con detalles del curso.
 
 Este proyecto realiza un análisis básico de expresión génica utilizando Python, 
 empleando un dataset simulado de 100 muestras que contiene niveles de expresión 
