@@ -1,4 +1,7 @@
 # Proyecto_Expresion_Genetica
+#Programación Científica
+#UNIR -> Grupo 18 - MUBIO
+#He agregado estas líneas con detalles del curso.
 
 Este proyecto realiza un análisis básico de expresión génica utilizando Python, 
 empleando un dataset simulado de 100 muestras que contiene niveles de expresión 
@@ -153,9 +156,8 @@ Name: Expresion, dtype: float64
 
 -   **Boxplot (CFTR vs. Grupos):** Describir la principal diferencia observada. ¿Cuál es la mediana de expresión en el grupo Enfermo frente al grupo Sano? ¿Sugiere el gráfico una expresión diferencial?
 
-    ![](https://github.com/Zenarev/Actividad_Grupal-/blob/main/Expresi%C3%B3n%20por%20grupo.png))
+    ![](https://github.com/Zenarev/Actividad_Grupal-/blob/main/Graficos/boxplot_CFTR.png))
 
 **Histograma (CFTR en Enfermo):** Describir la forma de la distribución (ej. simétrica, sesgada). ¿Qué rango de expresión es más frecuente en este grupo?
 
-----Agregar gráfico corregido de CFTR en grupo enfermo------
-
+   ![](https://github.com/Zenarev/Actividad_Grupal-/blob/main/Graficos/hist_CFTR_Enfermo.png))
