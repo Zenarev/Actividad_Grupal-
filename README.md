@@ -23,20 +23,24 @@ El objetivo principal es generar estadística descriptiva y visualizaciones
 
 ## Estructura del Repositorio
 
-Proyecto_Expresion_Genetica/
+Actividad_Grupal                                            #Nombre del repositorio
+├── Graficos/                                               #Carpeta para almacenar gráficos
+│     ├── boxplot_CFTR.png                                  #Gráfica de caja para resultados de expresión genética
+│     └── hist_CFTR_Enfermo.pn                              #Histograma para resultados de expresión genética
 │
-├── data/
-│ └── expresion_100_muestras.xlsx # Archivo de entrada
+├── Proyecto/                                               #Carpeta para almacenar los archivos de texto e indicaciones del proyecto
+│     ├── Indicaciones/                                     #Carpeta donde se encuentra el archivo con el contexto del experimento y datos de expresión
+│             ├── Proyecto_.docx                            #Explicación del proyeco en Word
+│             ├── Proyecto.md                               #Explicación del proyeco en texto visible en GitHub
+│             └── Datos_expresion_100_muestras.csv          #Compilación de datos de grupo enfermo y sano, así como la expresión génica
+│     └── Script_Python                                     #Código para python
 │
-├── output/
-│ ├── boxplot_CFTR.png # Boxplot generado por el script
-│ └── hist_CFTR_Enfermo.png # Histograma generado
-│
-├── script.py # Código principal del análisis
-└── README.md # Documentación del proyecto
+├── LICENSE                                                 #Archivo que define permisos y restricciones 
+└── README.md                                               #Detalles estructurados del proyecto
+
 ## Descripción del Dataset
 
-El archivo **expresion_100_muestras.xlsx** contiene:
+El archivo **Datos_expresion_100_muestras.csv** contiene:
 
 - **MUESTRA** → identificador de cada muestra (Muestra_01–Muestra_100)
 - **Gene** → CFTR o TP53
