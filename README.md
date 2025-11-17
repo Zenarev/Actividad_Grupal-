@@ -51,7 +51,7 @@ El objetivo principal es generar estadística descriptiva y visualizaciones
 
 ## Descripción del Dataset
 
-El archivo **expresion_100_muestras.xlsx** contiene:
+El archivo **Datos_expresion_100_muestras.csv** contiene:
 
 - **MUESTRA** → identificador de cada muestra (Muestra_01–Muestra_100)
 - **Gene** → CFTR o TP53
