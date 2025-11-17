@@ -1,0 +1,35 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+
+# 1. Configuración de rutas y carga de datos
+data_path = '../DATA/datos_expresion.csv'#Pegar la ruta en donde tiene su archivo.
+output_dir = '../OUTPUT/'
+os.makedirs(output_dir, exist_ok=True) 
+
+df = pd.read_csv(data_path)
+
+# 2. Estadística Descriptiva
+print("--- Estadística Descriptiva General ---")
+print(df['Expresion'].describe())
+
+# 3. Boxplot para Expresión Diferencial (usando un gen de ejemplo)
+# El Boxplot sirve para comparar grupos (sano vs. enfermo)
+plt.figure(figsize=(8, 6))
+sns.boxplot(x='Grupo', y='Expresion', data=df[df['Gene'] == 'CFTR'])
+plt.title('Boxplot de Expresión del Gen CFTR por Grupo')
+plt.savefig(os.path.join(output_dir, 'boxplot_CFTR.png'))
+plt.close()
+
+# 4. Histograma para Distribución
+# Se visualiza la distribución de expresión del gen CFTR en el grupo 'Enfermo'
+plt.figure(figsize=(8, 6))
+df[df['Grupo'] == 'Enfermo']['Expresion'].hist(bins=10)
+plt.title('Histograma de Expresión de CFTR en Muestras Enfermas')
+plt.xlabel('Nivel de Expresión')
+plt.ylabel('Frecuencia')
+plt.savefig(os.path.join(output_dir, 'hist_CFTR_Enfermo.png'))
+plt.close()
+
+print("Análisis completado. Gráficos guardados en la carpeta OUTPUT.")
