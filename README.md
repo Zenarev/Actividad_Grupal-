@@ -157,5 +157,5 @@ Name: Expresion, dtype: float64
 
 **Histograma (CFTR en Enfermo):** Describir la forma de la distribución (ej. simétrica, sesgada). ¿Qué rango de expresión es más frecuente en este grupo?
 
-![](https://github.com/Zenarev/Actividad_Grupal-/blob/main/Expresi%C3%B3n%20en%20muestras%20enfermas.png))
+----Agregar gráfico corregido de CFTR en grupo enfermo------
 
